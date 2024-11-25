@@ -1,9 +1,9 @@
 {
     "id": "965bc7ef-dcfa-4b04-be79-7e405c2890d9",
-    "authors": [ "GuberX - Made with AMP Config Generator" ],
-    "origin": "https://github.com/GuberX - Made with AMP Config Generator/AMPTemplates.git",
-    "url": "https://github.com/GuberX - Made with AMP Config Generator/AMPTemplates",
+    "authors": [ "GuberX" ],
+    "origin": "https://github.com/GuberX/AMPTemplates.git",
+    "url": "https://github.com/GuberX/AMPTemplate",
     "imagefile": "",
-    "prefix": "GuberX - Made with AMP Config Generator",
+    "prefix": "GuberX",
     "repotype": "AppTemplates"
 }
