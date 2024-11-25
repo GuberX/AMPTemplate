@@ -1,16 +1,16 @@
 [
     {
-        "Protocol": "Both",
+        "Protocol": "UDP",
         "Port": "27015",
-        "Name": "Main Game Port",
+        "Name": "Main Server Port",
         "Description": "Port used for main game traffic",
-        "Ref": "MainGamePort"
+        "Ref": "MainServerPort"
     },
     {
-        "Protocol": "Both",
+        "Protocol": "UDP",
         "Port": "27016",
-        "Name": "Steam Query Port",
+        "Name": "Query Dedicated Port",
         "Description": "Port used for main game traffic",
-        "Ref": "SteamQueryPort"
+        "Ref": "QueryDedicatedPort"
     }
 ]
