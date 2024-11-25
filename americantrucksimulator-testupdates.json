@@ -1,13 +1,24 @@
 [
     {
-        "UpdateStageName": "Installing",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "2239530",
-        "UpdateSourceArgs": "270880",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
+        "UpdateStageName":"SteamCMD Download",
+        "UpdateSourceData":"2239530",
+        "UpdateSourcePlatform":"All",
+        "UpdateSource":"SteamCMD",
+        "UpdateSourceArgs":"270880"
+    },
+    {
+        "UpdateStageName":"Settings Directory Creation",
+        "UpdateSourcePlatform":"All",
+        "UpdateSource":"CreateDirectory",
+        "UpdateSourceArgs":"{{$FullBaseDir}}American Truck Simulator"
+    },
+    {
+        "UpdateStageName":"Settings Template Download",
+        "UpdateSourcePlatform":"All",
+        "UpdateSource":"FetchURL",
+        "UpdateSourceData":"https://github.com/CubeCoders/AMPTemplates/raw/main/american-truck-simulator.sii",
+        "UpdateSourceArgs":"AMP_server_config.sii",
+        "UpdateSourceTarget":"{{$FullRootDir}}",
+        "OverwriteExistingFiles":true
     }
 ]
