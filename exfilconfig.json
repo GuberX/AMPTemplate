@@ -96,7 +96,8 @@
         "EnumValues": {
             "public": "Public (default)",
             "anticheat": "Anticheat - EAC",
-            "staging": "Staging"
+            "staging": "Staging",
+            "demo": "Demo"
         }
     }
 ]
